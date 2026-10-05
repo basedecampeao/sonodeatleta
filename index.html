@@ -1,0 +1,459 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Manual do Campeão: Como Ter Sono de Atleta | Base de Campeão</title>
+<meta name="description" content="O maior adversário da evolução do seu filho não está em campo. Está no travesseiro. O guia prático para pais de jovens atletas recuperarem foco, força e rendimento.">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="/icon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/icon-16.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<meta name="theme-color" content="#03273E">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Manual do Campeão: Como Ter Sono de Atleta">
+<meta property="og:description" content="Sem sono profundo, não existe talento que se sustente. Aprenda a blindar o descanso do seu filho atleta.">
+<meta property="og:image" content="/capa-manual-sono.png">
+<meta property="og:locale" content="pt_BR">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,700;1,9..40,400&display=swap" rel="stylesheet">
+<style>
+:root{
+  --navy:#03273E;
+  --navy-deep:#021A2B;
+  --navy-soft:#0A3A5A;
+  --gold:#E6A935;
+  --gold-dim:#B8842A;
+  --paper:#F2F5F7;
+  --ink:#0E1E29;
+  --rule:rgba(255,255,255,.14);
+  --max:1080px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{
+  background:var(--navy);
+  color:#fff;
+  font-family:"DM Sans",system-ui,sans-serif;
+  font-size:17px;
+  line-height:1.62;
+  -webkit-font-smoothing:antialiased;
+}
+img{max-width:100%;display:block}
+a{color:inherit}
+.wrap{width:100%;max-width:var(--max);margin-inline:auto;padding-inline:22px}
+.narrow{max-width:660px}
+
+h1,h2,h3,.display{
+  font-family:Anton,"DM Sans",sans-serif;
+  font-weight:400;
+  text-transform:uppercase;
+  line-height:.98;
+  letter-spacing:.01em;
+}
+h1{font-size:clamp(2.35rem,8.4vw,4.4rem)}
+h2{font-size:clamp(1.8rem,5.6vw,3rem);margin-bottom:.7em}
+h3{font-size:clamp(1.15rem,3.4vw,1.5rem);line-height:1.08}
+p+p{margin-top:1.05em}
+.lead{font-size:clamp(1.05rem,2.6vw,1.24rem);line-height:1.6}
+.dim{color:rgba(255,255,255,.76)}
+.gold{color:var(--gold)}
+
+/* ---------- topo ---------- */
+header{border-bottom:1px solid var(--rule)}
+.bar{display:flex;align-items:center;gap:12px;padding:14px 0}
+.bar img{width:40px;height:40px}
+.bar span{font-family:Anton,sans-serif;text-transform:uppercase;letter-spacing:.06em;font-size:1rem}
+
+/* ---------- hero ---------- */
+.hero{padding:clamp(44px,9vw,84px) 0 clamp(38px,7vw,66px)}
+.hero-grid{display:grid;gap:40px;align-items:center}
+@media(min-width:880px){
+  .hero-grid{grid-template-columns:1.2fr .8fr}
+}
+.hero h1{max-width:16ch}
+.hero .lead{margin-top:22px;max-width:52ch}
+.hero .kicker{
+  font-size:.95rem;color:var(--gold);margin-bottom:18px;max-width:46ch;
+}
+.hero-book-wrap{
+  display:flex;justify-content:center;perspective:1000px;
+}
+.hero-book{
+  width:100%;max-width:320px;border-radius:8px;
+  box-shadow:-12px 18px 40px rgba(0,0,0,.6), 0 0 0 1px rgba(255,255,255,.1);
+  transform:rotateY(-6deg) rotateX(2deg);
+  transition:transform .4s ease;
+}
+.hero-book:hover{
+  transform:rotateY(0deg) rotateX(0deg);
+}
+
+/* ---------- comparativo / diagnóstico ---------- */
+.sono-diag{margin-top:clamp(34px,6vw,52px)}
+.diag-caption{font-size:.9rem;color:rgba(255,255,255,.6);margin-bottom:10px}
+.diag-grid{
+  display:grid;gap:16px;grid-template-columns:1fr;
+}
+@media(min-width:640px){
+  .diag-grid{grid-template-columns:1fr 1fr}
+}
+.diag-box{
+  background:linear-gradient(var(--navy-deep),var(--navy-deep));
+  border:1px solid var(--rule);padding:20px;border-radius:4px;
+}
+.diag-box.ruim{border-left:4px solid #E65A5A}
+.diag-box.bom{border-left:4px solid var(--gold)}
+.diag-box h4{
+  font-family:Anton,sans-serif;font-size:1.15rem;text-transform:uppercase;margin-bottom:10px;
+}
+.diag-box.ruim h4{color:#FFA3A3}
+.diag-box.bom h4{color:var(--gold)}
+.diag-box ul{list-style:none}
+.diag-box li{font-size:.92rem;color:rgba(255,255,255,.8);padding:6px 0;border-bottom:1px solid rgba(255,255,255,.06)}
+.diag-box li:last-child{border-bottom:none}
+
+/* ---------- botões ---------- */
+.cta{
+  display:inline-block;background:var(--gold);color:var(--navy-deep);
+  font-family:Anton,sans-serif;text-transform:uppercase;letter-spacing:.03em;
+  font-size:clamp(1.05rem,3.2vw,1.3rem);
+  padding:19px 34px;text-decoration:none;border:2px solid var(--gold);
+  transition:background .15s ease,color .15s ease;
+}
+.cta:hover,.cta:focus-visible{background:transparent;color:var(--gold)}
+.cta-note{display:block;margin-top:12px;font-size:.9rem;color:rgba(255,255,255,.6)}
+.cta-block{margin-top:30px}
+a:focus-visible,summary:focus-visible{outline:3px solid var(--gold);outline-offset:3px}
+
+/* ---------- seções ---------- */
+section{padding:clamp(52px,9vw,96px) 0;border-top:1px solid var(--rule)}
+.paper{background:var(--paper);color:var(--ink);border-top:none}
+.paper .dim{color:rgba(14,30,41,.72)}
+.paper h2{color:var(--navy)}
+
+/* cena */
+.cena p{font-size:clamp(1.1rem,3vw,1.35rem);line-height:1.5}
+.cena .beat{margin-top:1.4em}
+.cena .punch{
+  margin-top:1.6em;font-family:Anton,sans-serif;text-transform:uppercase;
+  font-size:clamp(1.3rem,4.4vw,2rem);line-height:1.06;color:var(--gold)
+}
+
+/* cards duplos */
+.duas{display:grid;gap:18px;margin-top:34px}
+@media(min-width:720px){.duas{grid-template-columns:1fr 1fr;gap:24px}}
+.card{border:1px solid rgba(14,30,41,.16);padding:26px;background:#fff}
+.card h3{color:var(--navy);margin-bottom:10px}
+.card p{font-size:1rem}
+
+/* erros / decisões */
+.decisoes{list-style:none;margin-top:26px;max-width:640px}
+.decisoes li{padding:16px 0;border-bottom:1px solid var(--rule);font-size:1.04rem}
+.decisoes li:first-child{border-top:1px solid var(--rule)}
+
+/* pilares */
+.fases{list-style:none;margin-top:30px}
+.fases li{
+  display:grid;grid-template-columns:auto 1fr;gap:16px;
+  padding:18px 0;border-bottom:1px solid rgba(14,30,41,.14);align-items:baseline;
+}
+.fases .idade{
+  font-family:Anton,sans-serif;color:var(--gold-dim);
+  font-size:1.1rem;white-space:nowrap;min-width:6.5ch;
+}
+.fases strong{display:block;font-weight:700;font-size:1.05rem}
+.fases span.d{display:block;color:rgba(14,30,41,.72);font-size:.98rem;margin-top:3px}
+
+/* entrega */
+.entrega{list-style:none;margin-top:24px;display:grid;gap:14px;max-width:620px}
+.entrega li{padding-left:26px;position:relative;font-size:1.04rem}
+.entrega li::before{
+  content:"";position:absolute;left:0;top:.62em;width:11px;height:2px;background:var(--gold)
+}
+
+/* não é */
+.naoe{display:grid;gap:12px;margin-top:26px;max-width:620px}
+.naoe li{list-style:none;padding:14px 18px;border-left:3px solid var(--gold-dim);background:rgba(255,255,255,.04)}
+
+/* preço */
+.preco{text-align:center}
+.preco .valor{
+  font-family:Anton,sans-serif;font-size:clamp(3.2rem,13vw,5.6rem);
+  color:var(--gold);line-height:.9;margin:6px 0 4px
+}
+.preco .antes{color:rgba(255,255,255,.55);font-size:1rem}
+
+/* faq */
+details{border-bottom:1px solid var(--rule)}
+summary{
+  cursor:pointer;padding:19px 0;font-weight:500;font-size:1.06rem;
+  list-style:none;display:flex;justify-content:space-between;gap:18px;align-items:center;
+}
+summary::-webkit-details-marker{display:none}
+summary::after{content:"+";color:var(--gold);font-size:1.5rem;line-height:1}
+details[open] summary::after{content:"–"}
+details p{padding-bottom:20px;color:rgba(255,255,255,.78);font-size:1rem;max-width:62ch}
+
+/* rodapé */
+footer{background:var(--navy-deep);padding:44px 0;font-size:.9rem;color:rgba(255,255,255,.58)}
+footer img{width:52px;margin-bottom:16px}
+footer p+p{margin-top:.6em}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap bar">
+    <img src="/logo.png" alt="Base de Campeão" width="40" height="40">
+    <span>Base de Campeão</span>
+  </div>
+</header>
+
+<main>
+
+<!-- HERO -->
+<div class="hero">
+  <div class="wrap hero-grid">
+    <div>
+      <p class="kicker">Manual do Campeão</p>
+      <h1>O maior adversário do seu filho não está em campo</h1>
+      <p class="lead dim">
+        Você investe em chuteira de ponta, escolinha, treino particular e suplementação.
+        Mas enquanto ele for dormir com a luz do celular na cara, o corpo dele nunca vai
+        estar 100% pronto para competir. O manual prático para pais construírem a base
+        invisível da alta performance.
+      </p>
+
+      <div class="sono-diag">
+        <p class="diag-caption">O impacto no dia seguinte da partida</p>
+        <div class="diag-grid">
+          <div class="diag-box ruim">
+            <h4>Noite Comum (Telas e Horário Irregular)</h4>
+            <ul>
+              <li>Reação lenta na tomada de decisão</li>
+              <li>Perna pesada aos 15 minutos do 2º tempo</li>
+              <li>Risco de estiramento muscular até 1,7x maior</li>
+              <li>Irritabilidade e perda de foco sob pressão</li>
+            </ul>
+          </div>
+          <div class="diag-box bom">
+            <h4>Sono de Campeão (Protocolo Ativo)</h4>
+            <ul>
+              <li>Pico natural de GH e regeneração profunda</li>
+              <li>Agilidade e tempo de resposta afiados</li>
+              <li>Musculatura restaurada e pronta para o choque</li>
+              <li>Controle emocional nos momentos decisivos</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="cta-block">
+        <a class="cta" href="https://go.hotmart.com/B107484794B">Quero o manual do sono de atleta</a>
+        <span class="cta-note">Acesso imediato. PDF prático para ler no celular.</span>
+      </div>
+    </div>
+
+    <div class="hero-book-wrap">
+      <img src="/capa-manual-sono.png" alt="Capa do Manual do Campeão: Como Ter Sono de Atleta" class="hero-book" width="320" height="452">
+    </div>
+  </div>
+</div>
+
+<!-- A CENA -->
+<section class="cena">
+  <div class="wrap narrow">
+    <p>Você já notou isso no fim de semana.</p>
+    <p class="beat">
+      No primeiro tempo ele corre, pede a bola, disputa cada espaço com vontade.
+      Mas aos 15 do segundo tempo parece que o fôlego sumiu de repente. A tomada
+      de decisão atrasa um segundo. Ele erra um passe bobo, se irrita com facilidade
+      e parece desconectado da partida.
+    </p>
+    <p class="beat">
+      No caminho para casa, vem aquela frustração: "Será que faltou raça? Será que
+      ele precisa treinar mais a parte física?"
+    </p>
+    <p class="beat dim">
+      Você pensa em colocar mais treino, mais repetição, mais cobrança. Só que o
+      problema não começou no apito inicial do juiz.
+    </p>
+    <p class="punch">Começou na noite anterior.<br>No quarto dele.</p>
+  </div>
+</section>
+
+<!-- A BIOLOGIA DO DESCANSO -->
+<section class="paper">
+  <div class="wrap">
+    <h2>O treino destrói o músculo. O sono constrói o atleta.</h2>
+    <p class="lead" style="max-width:60ch">
+      Nenhum menino evolui enquanto está treinando no gramado. O treino é apenas o estímulo.
+      A evolução real acontece durante as fases de sono profundo, quando o cérebro consolida
+      o gesto técnico e o corpo libera os hormônios de reparação.
+    </p>
+
+    <div class="duas">
+      <div class="card">
+        <h3>O que as telas da noite roubam</h3>
+        <p>
+          A luz azul do celular e dos jogos bloqueia a melatonina e engana o cérebro,
+          mantendo o organismo em estado de alerta. O menino dorme, mas não descansa.
+          O corpo não atinge a fase profunda onde ocorre o pico de GH (hormônio do crescimento)
+          e a recarga total dos estoques de energia muscular.
+        </p>
+      </div>
+      <div class="card">
+        <h3>A vantagem invisível de quem dorme certo</h3>
+        <p>
+          Um jovem atleta com rotina blindada de sono chega para o jogo com o sistema nervoso
+          recuperado. Ele enxerga o lance frações de segundo antes dos marcadores, suporta o
+          choque físico sem sofrer lesões articulares e mantém a lucidez até o apito final.
+        </p>
+      </div>
+    </div>
+
+    <p style="margin-top:30px;max-width:62ch" class="dim">
+      Estudos da medicina esportiva internacional comprovam: atletas jovens que dormem menos
+      de 8 horas por noite têm um aumento de até 70% no risco de lesões por sobrecarga muscular
+      ao longo da temporada. Sono não é descanso passivo; é ferramenta de treinamento.
+    </p>
+  </div>
+</section>
+
+<!-- O CUSTO DOS ERROS -->
+<section>
+  <div class="wrap">
+    <h2>O que os pais tentam consertar sem enxergar o sono</h2>
+    <p class="lead dim" style="max-width:58ch">
+      A maioria dos erros custa caro para a família e não resolve a raiz da queda de rendimento:
+    </p>
+    <ul class="decisoes">
+      <li>Contratar personal trainer achando que falta resistência física</li>
+      <li>Trocar a marca da chuteira ou comprar suplementos caros desnecessários</li>
+      <li>Cobrar falta de raça ou dedicação quando o menino está esgotado biologicamente</li>
+      <li>Travar discussões diárias sobre o uso do celular sem apresentar uma rotina estruturada</li>
+      <li>Ver o filho perder espaço no time titular sem entender o motivo da queda</li>
+    </ul>
+  </div>
+</section>
+
+<!-- O QUE TEM DENTRO -->
+<section class="paper">
+  <div class="wrap">
+    <h2>O que você vai encontrar dentro do manual</h2>
+    <p class="lead" style="max-width:60ch">
+      Um guia prático, direto ao ponto e sem termos médicos complexos. Projetado para pais
+      que querem soluções reais e aplicáveis na rotina da casa.
+    </p>
+
+    <ul class="fases">
+      <li><span class="idade">MÓDULO 1</span>
+        <span><strong>A Fisiologia do Campeão</strong>
+        <span class="d">Como o sono profundo repara tendões, músculos e amplia a retenção do aprendizado motor.</span></span></li>
+      <li><span class="idade">MÓDULO 2</span>
+        <span><strong>A Batalha das Telas sem Guerra Familiar</strong>
+        <span class="d">Estratégias práticas para estabelecer o "toque de recolher digital" com a colaboração do atleta.</span></span></li>
+      <li><span class="idade">MÓDULO 3</span>
+        <span><strong>O Quarto de Alta Performance</strong>
+        <span class="d">Ajustes simples de luz, temperatura e ruído que transformam qualquer quarto num ambiente anabólico.</span></span></li>
+      <li><span class="idade">MÓDULO 4</span>
+        <span><strong>Protocolo Pré e Pós-Jogo Noturno</strong>
+        <span class="d">O que fazer quando o jogo ou treino termina tarde e a adrenalina ainda está no pico.</span></span></li>
+      <li><span class="idade">MÓDULO 5</span>
+        <span><strong>Checklist Diário do Sono do Atleta</strong>
+        <span class="d">A ferramenta visual para o jovem acompanhar a própria rotina e criar disciplina autônoma.</span></span></li>
+    </ul>
+
+    <p style="margin-top:38px" class="lead"><strong>Você também recebe:</strong></p>
+    <ul class="entrega">
+      <li>Como conversar com o seu filho sobre sono sem parecer uma bronca de pai</li>
+      <li>A tabela exata de horas recomendadas para cada faixa etária de desenvolvimento</li>
+      <li>Alimentos da noite que ajudam ou sabotam o adormecer do jovem atleta</li>
+    </ul>
+
+    <div class="cta-block">
+      <a class="cta" href="https://go.hotmart.com/B107484794B">Quero o manual agora</a>
+    </div>
+  </div>
+</section>
+
+<!-- O QUE NÃO É -->
+<section>
+  <div class="wrap">
+    <h2>O que este material não é</h2>
+    <p class="lead dim" style="max-width:58ch">
+      A Base de Campeão preza pela verdade e pelo profissionalismo. É importante deixar claro:
+    </p>
+    <ul class="naoe">
+      <li>Não é um livro acadêmico com jargões difíceis e sem aplicação prática</li>
+      <li>Não receita medicamentos ou suplementações químicas mirabolantes</li>
+      <li>Não promete transformar o seu filho num craque da noite para o dia</li>
+      <li>Não substitui o trabalho da comissão técnica e dos médicos do clube</li>
+    </ul>
+    <p style="margin-top:26px;max-width:58ch">
+      O que ele entrega é o controle sobre o único fator de rendimento que depende 100% da rotina da sua casa.
+    </p>
+  </div>
+</section>
+
+<!-- PREÇO -->
+<section class="preco">
+  <div class="wrap narrow">
+    <h2 style="margin-bottom:.4em">O descanso dele começa hoje à noite</h2>
+    <p class="dim">Não espere uma lesão ou a perda da titularidade para ajustar a base.</p>
+    <div class="valor">R$&nbsp;19,90</div>
+    <p class="antes">Pagamento único. Acesso imediato pela Hotmart.</p>
+    <div class="cta-block">
+      <a class="cta" href="https://go.hotmart.com/B107484794B">Comprar o manual do sono</a>
+      <span class="cta-note">Compra 100% segura. Garantia de 7 dias incondicional.</span>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section>
+  <div class="wrap narrow">
+    <h2>Perguntas frequentes</h2>
+
+    <details>
+      <summary>Meu filho não larga o celular antes de dormir. O manual ajuda?</summary>
+      <p>Sim. O manual aborda exatamente a psicologia do jovem atleta, ensinando como apresentar a importância do sono para a meta dele (jogar melhor) em vez de transformar o horário de dormir numa disputa de autoridade.</p>
+    </details>
+
+    <details>
+      <summary>Ele joga e treina à noite. Como desacelerar?</summary>
+      <p>Há um capítulo específico para o protocolo pós-treino noturno, ensinando como baixar a temperatura corporal e desativar o sistema simpático para que o sono venha rápido mesmo com adrenalina.</p>
+    </details>
+
+    <details>
+      <summary>Qual a faixa etária atendida pelo manual?</summary>
+      <p>O conteúdo atende crianças e adolescentes dos 7 aos 18 anos, com diretrizes ajustadas para cada fase de crescimento e desenvolvimento motor.</p>
+    </details>
+
+    <details>
+      <summary>Como recebo o acesso?</summary>
+      <p>Imediatamente após a confirmação do pagamento, você receberá o link para download direto no seu e-mail através da plataforma Hotmart. O material está em formato PDF diagramado para celular e tablet.</p>
+    </details>
+
+    <div class="cta-block">
+      <a class="cta" href="https://go.hotmart.com/B107484794B">Quero garantir o manual</a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <img src="/logo.png" alt="Base de Campeão" width="52" height="52">
+    <p>Base de Campeão. Fazendo um futebol melhor com melhores pessoas.</p>
+    <p>Base de Campeão Ensino de Esportes LTDA.</p>
+    <p style="margin-top:1.2em">Este material tem finalidade educativa e informativa, não substituindo orientação médica ou nutricional individualizada.</p>
+  </div>
+</footer>
+
+</body>
+</html>
